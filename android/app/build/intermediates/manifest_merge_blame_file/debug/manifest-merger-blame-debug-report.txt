@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zeyn"
+4    android:versionCode="5"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\zeynApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\zeynApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:6:5-79
+14-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:7:5-81
+15-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:8:5-75
+16-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:8:22-73
+17
+18    <application
+18-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:13:5-46:19
+19        android:name="com.zeyn.MainApplication"
+19-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:14:7-38
+20        android:allowBackup="false"
+20-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:19:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\souhir\.gradle\caches\transforms-3\6be23c5517985f19fcabc9b798caadc5\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:16:7-41
+24        android:label="@string/app_name"
+24-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:15:7-39
+25        android:networkSecurityConfig="@xml/network_security_config"
+25-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:18:7-67
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:17:7-52
+27        android:theme="@style/AppTheme"
+27-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:20:7-38
+28        android:usesCleartextTraffic="true" >
+28-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:21:7-42
+29        <activity
+29-->C:\zeynApp\android\app\src\debug\AndroidManifest.xml:11:9-111
+30            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+30-->C:\zeynApp\android\app\src\debug\AndroidManifest.xml:11:19-83
+31            android:exported="false" />
+31-->C:\zeynApp\android\app\src\debug\AndroidManifest.xml:11:84-108
+32        <activity
+32-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:25:7-36:18
+33            android:name="com.zeyn.MainActivity"
+33-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:26:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:28:9-118
+35            android:exported="true"
+35-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:31:9-32
+36            android:label="@string/app_name"
+36-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:27:9-41
+37            android:launchMode="singleTask"
+37-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:29:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:30:9-51
+39            <intent-filter>
+39-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:32:9-35:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:33:13-65
+40-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:33:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:34:13-73
+42-->C:\zeynApp\android\app\src\main\AndroidManifest.xml:34:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+47            android:name="androidx.core.content.FileProvider"
+48            android:authorities="com.zeyn.provider"
+49            android:exported="false"
+50            android:grantUriPermissions="true" >
+51            <meta-data
+51-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:63
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+53                android:resource="@xml/file_paths" />
+53-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-60
+54        </provider>
+55        <provider
+55-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+56            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+56-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+57            android:authorities="com.zeyn.fileprovider"
+57-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+58            android:exported="false"
+58-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+59            android:grantUriPermissions="true" >
+59-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+60            <meta-data
+60-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:63
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+62                android:resource="@xml/file_provider_paths" />
+62-->[:react-native-webview] C:\zeynApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-60
+63        </provider>
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\7f54a7dfe19ef0767a7a4a59f18603f7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\7f54a7dfe19ef0767a7a4a59f18603f7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\7f54a7dfe19ef0767a7a4a59f18603f7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\7f54a7dfe19ef0767a7a4a59f18603f7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\ea51e9565e00dfcc01c5228a0311af20\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\ea51e9565e00dfcc01c5228a0311af20\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\souhir\.gradle\caches\transforms-3\ea51e9565e00dfcc01c5228a0311af20\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+76            android:authorities="com.zeyn.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\souhir\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\souhir\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\souhir\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\souhir\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

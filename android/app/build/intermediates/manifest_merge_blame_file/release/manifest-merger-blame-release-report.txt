@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bisdistrubtion"
+4    android:versionCode="5"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:8:5-75
+15-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:8:22-73
+16
+17    <application
+17-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:13:5-46:19
+18        android:name="com.bisdistrubtion.MainApplication"
+18-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:14:7-38
+19        android:allowBackup="false"
+19-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:19:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] /Users/apple/.gradle/caches/transforms-3/6be23c5517985f19fcabc9b798caadc5/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:16:7-41
+22        android:label="@string/app_name"
+22-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:15:7-39
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:18:7-67
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:17:7-52
+25        android:theme="@style/AppTheme"
+25-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:20:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:21:7-42
+27        <activity
+27-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:25:7-36:18
+28            android:name="com.bisdistrubtion.MainActivity"
+28-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:26:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+29-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:28:9-118
+30            android:exported="true"
+30-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:31:9-32
+31            android:label="@string/app_name"
+31-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:27:9-41
+32            android:launchMode="singleTask"
+32-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:29:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:30:9-51
+34            <intent-filter>
+34-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:32:9-35:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:33:13-65
+35-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:33:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:34:13-73
+37-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:34:23-70
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+42            android:name="androidx.core.content.FileProvider"
+42-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:38:9-58
+43            android:authorities="com.bisdistrubtion.provider"
+43-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:39:9-56
+44            android:exported="false"
+44-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:40:9-33
+45            android:grantUriPermissions="true" >
+45-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:41:9-43
+46            <meta-data
+46-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:42:9-44:50
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:43:13-63
+48                android:resource="@xml/file_paths" />
+48-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:44:13-47
+49        </provider>
+50        <provider
+50-->[:react-native-webview] /Users/apple/Desktop/textiles_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+51            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+51-->[:react-native-webview] /Users/apple/Desktop/textiles_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+52            android:authorities="com.bisdistrubtion.fileprovider"
+52-->[:react-native-webview] /Users/apple/Desktop/textiles_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+53            android:exported="false"
+53-->[:react-native-webview] /Users/apple/Desktop/textiles_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+54            android:grantUriPermissions="true" >
+54-->[:react-native-webview] /Users/apple/Desktop/textiles_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+55            <meta-data
+55-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:42:9-44:50
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:43:13-63
+57                android:resource="@xml/file_provider_paths" />
+57-->/Users/apple/Desktop/textiles_app/android/app/src/main/AndroidManifest.xml:44:13-47
+58        </provider>
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/7f54a7dfe19ef0767a7a4a59f18603f7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/7f54a7dfe19ef0767a7a4a59f18603f7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/7f54a7dfe19ef0767a7a4a59f18603f7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/7f54a7dfe19ef0767a7a4a59f18603f7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/ea51e9565e00dfcc01c5228a0311af20/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/ea51e9565e00dfcc01c5228a0311af20/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/ea51e9565e00dfcc01c5228a0311af20/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+71            android:authorities="com.bisdistrubtion.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+79        </provider>
+80    </application>
+81
+82</manifest>
